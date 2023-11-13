@@ -1,0 +1,63 @@
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0f172a;
+}
+.h2{
+    font-size: larger;
+    font: 1em sans-serif;
+}
+h4{
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.container {
+  width: 22rem;
+  margin-top: 8rem;
+  background-color: rgb(78, 18, 135);
+  border-radius: 10px;
+  padding: 30px;
+}
+.form:hover {
+    box-shadow: 0 0 60px 0 violet;
+    transition: .8s;
+    transform: scale(1.6s);
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+  font-weight: 300;
+  font-family: sans-serif;
+}
+
+.inputs input {
+  outline: none;
+  height: 30px;
+}
+
+#results {
+  font-size: 20px;
+  text-align: center;
+  color: rgb(0, 0,0);
+}
+
+.convBtn {
+  width: 100%;
+  padding: 8px 0;
+  margin-top: 10px;
+  border-radius: 5px;
+  border-style: none;
+  background: violet;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.message {
+  text-align: center;
+  font-family: sans-serif;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>BMI CALCULATOR</title>
+</head>
+<body>
+    <!--<h2>Body Mass Index</h2>
+    <form class="form" id="form" onsubmit="return validateForm()">
+        <div class="row-1">
+            <input type="text" class="text-input" id="age" autocomplete="off" required>
+            <p class="text">Age</p>
+            <label class="container">
+                <input type="radio" name="radio" id="f">
+                <p class="text">Female</p>
+                <spa class="checkmark"></spa>
+
+            </label>
+        </div>
+
+        <div class="row-2">
+            <input type="text" class="text-input" id="age" autocomplete="off" required>
+            <p class="text">Height (cm)</p>
+            <label class="container">
+                <input type="radio" name="radio" id="f">
+                <p class="text">Weight (kg)</p>
+                <span class="checkmark"></span>
+            </label>
+        </div>
+        <button type="button" id="submit">Submit</button>
+        
+    </form>-->
+
+    <div class="container">
+        <h2>BMI Calculator</h2>
+        <form class="form">
+            <p class="inputs">
+                <label>Height (kg): </label>
+                <input type="number" id="height" min="1">
+            </p>
+            <p class="inputs">
+                <label>Weight (kg): </label>
+                <input type="number" id="weight" min="1">
+            </p>
+    
+            <button class="convBtn">Convert</button>
+            <div style="margin-top: 20px;">
+                <h3>Your BMI is:</h3>
+                <p id="results"></p>
+            </div>
+            <p id="message"></p>
+    
+        </form>
+    </div>
+    <script src="script/bmi.js"></script>
+</body>
+</html>
